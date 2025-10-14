@@ -1,8 +1,10 @@
-/*
-1. Given an array of numbers, use a filter to create a new array that contains only even numbers.
+
+//1. Given an array of numbers, use a filter to create a new array that contains only even numbers.
 
 let numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let evenNumber = numberArray.filter(isEven);
 
+/*
 function evenNumber (array) {
     let newArray = [];
 
@@ -13,8 +15,7 @@ function evenNumber (array) {
     }
     return newArray;
 }
-console.log (evenNumber(numberArray
-));
+console.log (evenNumber(numberArray));
 */
 
 /*
@@ -136,6 +137,8 @@ function higRes (array) {
 console.log (higRes(stringArray));
 */
 
+/*
+7. Sum of all numbers in an array
 let numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 function total (array) {
@@ -151,3 +154,5 @@ function total (array) {
 }
 
 console.log (total(numberArray));
+*/
+
